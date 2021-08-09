@@ -9,8 +9,11 @@
 		This page is blank
 	</head>
 <BODY>
+	<script>
+var delayInMilliseconds = 5000; //5 seconds
 
-<!-- Start WKND tag. Deploy at the beginning of document head. -->
+setTimeout(function() {
+  <!-- Start WKND tag. Deploy at the beginning of document head. -->
 <script>
 	(function(d) {
 		var e = d.createElement('script');
@@ -20,7 +23,9 @@
 	}(document));
 </script>
 <!-- End WKND tag -->
+}, delayInMilliseconds);
 
+	</script>
 
 </BODY>
 </HTML>
